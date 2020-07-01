@@ -17,7 +17,7 @@ const Weatherbar = () => {
         else{return(require('../images/rain.png'))}
         
     };
-    
+    console.log(weatherDataMaxT);
     return(
     <View style={styles.containerStyle}>
         
